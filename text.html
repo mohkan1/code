@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.3/ace.js">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    </script>
+
+    <style media="screen">
+
+      html,body { margin:0; padding:0; height:100%; width:100%; overflow: hidden;}
+
+      #editor {
+          height: 100%;
+          width:50%;
+          display:inline-block;
+      }
+
+      #container {
+      	height:100%;
+      	width:auto;
+        white-space : nowrap;
+        overflow : hidden;
+        position:relative;
+      }
+
+      #iframe {
+      	height:100%;
+      	display:inline-block;
+      	width:50%;
+      }
+
+      /* disable tag matching */
+      .ace_editor .ace_marker-layer .ace_bracket { display: none }
+    </style>
+
+  </head>
+  <body>
+    <input type="text" size="50" onkeydown="keyCode(event)">
+
+    <div id='container'>
+
+      <div id="editor">
+      </div>
+
+      <iframe id='iframe' frameBorder="0">
+      </iframe>
+    </div>
+    <input type="text" size="50" onkeydown="keyCode(event)">
+
+  </body>
+  <script src="text.js">
+
+  </script>
+
+</html>
