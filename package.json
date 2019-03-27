@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "mysqli": "^3.0.6",
+    "php": "0.0.1",
+    "ratchat": "0.0.1",
+    "ratchet": "^1.0.0",
+    "socket.io": "^2.2.0",
+    "sql": "^0.78.0"
+
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
